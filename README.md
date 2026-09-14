@@ -34,10 +34,6 @@ Aplikasi V1 tidak membutuhkan database karena seluruh konten pembelajaran disimp
 - Web I: fondasi HTML, CSS, Bootstrap, Laravel dasar, database, MVC, CRUD, template.
 - Web II: project Laravel studi kasus, database, authentication, CRUD lengkap, validation, pagination, relasi, dashboard, formatting, proyek akhir.
 
-## Catatan Modernisasi Materi
-
-Materi presentasi lama tidak disalin mentah. Contoh Bootstrap lama seperti `col-xs-*` diperbarui ke Bootstrap 5. Penjelasan Laravel lama diposisikan ulang agar konsepnya tetap valid tanpa mengunci peserta ke workflow/package lama.
-
 ## Deployment
 
 Document root hosting diarahkan ke folder `public/`. Setelah upload, jalankan `composer install --no-dev --optimize-autoloader`, set `.env`, lalu `php artisan optimize` jika lingkungan hosting mendukung.
