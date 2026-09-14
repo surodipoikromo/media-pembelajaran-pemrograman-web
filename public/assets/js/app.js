@@ -1,0 +1,1 @@
+document.addEventListener('click',async e=>{const b=e.target.closest('[data-copy]');if(!b)return;const c=b.closest('.code-card')?.querySelector('code')?.innerText||'';await navigator.clipboard.writeText(c);const old=b.innerHTML;b.innerHTML='<i class="fa-solid fa-check"></i> Disalin';setTimeout(()=>b.innerHTML=old,1400)});
